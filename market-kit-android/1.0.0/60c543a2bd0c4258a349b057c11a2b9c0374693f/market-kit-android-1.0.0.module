@@ -1,0 +1,149 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "7.2"
+    }
+  },
+  "component" : {
+    "group" : "com.github.horizontalsystems",
+    "module" : "market-kit-android",
+    "version" : "1.0.0",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "releaseVariantReleaseApiPublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.6.20"
+      }
+    } ],
+    "files" : [ {
+      "name" : "market-kit-android-1.0.0.aar",
+      "url" : "market-kit-android-1.0.0.aar",
+      "size" : 896442,
+      "sha512" : "16b0ad78ed3da401c3beba9aba13f5cc8b5acd8e747bac41725e5afc9f95da6db54b5cca434a729c1dd19291c8c8ca3e4cae8e4b94b97a6faeb95fc6fad25b10",
+      "sha256" : "1f14e90d90d05fe0e77c56b631f4a9d800bded0e0243f489738e792265fe9a14",
+      "sha1" : "e7f0398c517692fd7c1f894fa8e3c5749ab23c68",
+      "md5" : "a051fa09528f6f86a2ffeadb74b6424e"
+    } ]
+  }, {
+    "name" : "releaseVariantReleaseRuntimePublication",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.libraryelements" : "aar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-parcelize-runtime",
+      "version" : {
+        "requires" : "1.6.20"
+      }
+    }, {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : {
+        "requires" : "1.6.20"
+      }
+    }, {
+      "group" : "androidx.core",
+      "module" : "core-ktx",
+      "version" : {
+        "requires" : "1.7.0"
+      }
+    }, {
+      "group" : "androidx.appcompat",
+      "module" : "appcompat",
+      "version" : {
+        "requires" : "1.4.1"
+      }
+    }, {
+      "group" : "com.google.android.material",
+      "module" : "material",
+      "version" : {
+        "requires" : "1.5.0"
+      }
+    }, {
+      "group" : "androidx.room",
+      "module" : "room-runtime",
+      "version" : {
+        "requires" : "2.4.2"
+      }
+    }, {
+      "group" : "androidx.room",
+      "module" : "room-rxjava2",
+      "version" : {
+        "requires" : "2.4.2"
+      }
+    }, {
+      "group" : "io.reactivex.rxjava2",
+      "module" : "rxjava",
+      "version" : {
+        "requires" : "2.2.19"
+      }
+    }, {
+      "group" : "io.reactivex.rxjava2",
+      "module" : "rxandroid",
+      "version" : {
+        "requires" : "2.1.1"
+      }
+    }, {
+      "group" : "com.squareup.retrofit2",
+      "module" : "retrofit",
+      "version" : {
+        "requires" : "2.9.0"
+      }
+    }, {
+      "group" : "com.squareup.retrofit2",
+      "module" : "adapter-rxjava2",
+      "version" : {
+        "requires" : "2.9.0"
+      }
+    }, {
+      "group" : "com.squareup.retrofit2",
+      "module" : "converter-gson",
+      "version" : {
+        "requires" : "2.9.0"
+      }
+    }, {
+      "group" : "com.squareup.okhttp3",
+      "module" : "logging-interceptor",
+      "version" : {
+        "requires" : "4.9.0"
+      }
+    }, {
+      "group" : "com.squareup.retrofit2",
+      "module" : "converter-scalars",
+      "version" : {
+        "requires" : "2.9.0"
+      }
+    }, {
+      "group" : "com.google.code.gson",
+      "module" : "gson",
+      "version" : {
+        "requires" : "2.8.9"
+      }
+    } ],
+    "files" : [ {
+      "name" : "market-kit-android-1.0.0.aar",
+      "url" : "market-kit-android-1.0.0.aar",
+      "size" : 896442,
+      "sha512" : "16b0ad78ed3da401c3beba9aba13f5cc8b5acd8e747bac41725e5afc9f95da6db54b5cca434a729c1dd19291c8c8ca3e4cae8e4b94b97a6faeb95fc6fad25b10",
+      "sha256" : "1f14e90d90d05fe0e77c56b631f4a9d800bded0e0243f489738e792265fe9a14",
+      "sha1" : "e7f0398c517692fd7c1f894fa8e3c5749ab23c68",
+      "md5" : "a051fa09528f6f86a2ffeadb74b6424e"
+    } ]
+  } ]
+}
